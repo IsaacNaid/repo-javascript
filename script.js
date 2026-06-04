@@ -80,3 +80,23 @@ const numerosEnObjetos = listaNumeros.map(
     }
 );
 console.log(numerosEnObjetos);
+// funcion filter
+const numerosX = [90,70,30,10,50];
+const numerosFiltrados = numerosX.filter(
+    numX => numX > 50
+);
+console.log(numerosFiltrados);
+const persona = [
+    {
+        nombre: "Isaac",
+        edad : 18
+    },
+    {
+        nombre: "naid",
+        edad : 18
+    },
+    {
+        nombre: "bg",
+        edad : 18
+    },
+];
